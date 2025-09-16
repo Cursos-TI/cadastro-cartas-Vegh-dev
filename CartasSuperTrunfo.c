@@ -37,6 +37,7 @@ int main() {
 
     printf("Digite o nome da cidade: \n");
     scanf("%s", cidade);
+    // Nesta variavel os espaços faziam o input jogar as outras variaveis todas de uma vez, ainda estou trabalhando em uma solução, contudo o código é operante sem a inserção de espaços.
 
     printf("Digite o tamanho da População: \n");
     scanf("%d", &populacao);  
