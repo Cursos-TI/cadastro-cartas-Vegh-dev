@@ -41,9 +41,7 @@ int main() {
     float densidade = (float) populacao / area;
     float capita = (pib * 1000000000) / populacao;
 
-    // Limpa o buffer antes da próxima leitura
-    while(getchar() != '\n');
-
+    
     // === Carta 2 ===
     printf("Digite o estado: \n");
     scanf("%c", &estado1);   
