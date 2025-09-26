@@ -13,7 +13,6 @@ int main() {
     float area, area1, pib, pib1; 
 
     
-    
     // Área para entrada de dados
   
     // === Carta 1 ===
@@ -46,7 +45,6 @@ int main() {
     float superpoder = (float) populacao + area + pib + pontos + densidade + capita;
 
 
-    
     // === Carta 2 ===
     printf("Digite o estado: \n");
     getchar(); // ← ADICIONE ESTA LINHA para limpar o buffer
@@ -92,6 +90,7 @@ int main() {
     printf("Densidade populacional: %.2f hab/km² \n", densidade);
     printf("PIB per capita: %.2f reais \n", capita);
     printf("Super Poder: %.2f \n", superpoder);
+    
     // === Carta 2 ===
     printf("\nCarta 2: \n");               
     printf("Estado: %c \n", estado1);
@@ -105,7 +104,7 @@ int main() {
     printf("PIB per capita: %.2f reais \n", capita1);
     printf("Super Poder: %.2f \n", superpoder1);
 
-    // === Comparação dos super poderes ===
+    // === Comparação das Cartas ===
     
     printf("\nComparação das Cartas:\n");
     printf("População: Carta 1 Venceu %d\n",populacao >= populacao1);
